@@ -1,0 +1,320 @@
+@charset "UTF-8";
+
+*{box-sizing: border-box;}
+html,body{margin:0;}
+
+
+
+
+body {
+    background-color: grey;
+}
+
+Header {
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+}
+
+    @media only screen and (min-width: 1000px){
+        header.header-brand{
+    margin: 31px 0;
+    text-align: left;
+    line-height: 38px
+    padding 0 20px 0 40px;
+    border:-right  3px solid #111;
+    flaot: left;
+}
+
+header nav ul{
+    display: block;
+    margin: 0 auto;
+    width:fit-content;
+    padding: 0 16px;
+
+}
+header nav ul li{
+    display: inline-block;
+    float:left;
+    list-style: none;
+    padding: 0 16px;
+}
+
+header nav ul li a {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    color: #111;
+}
+
+    }
+
+}
+
+
+
+header nav ul{
+    display: block;
+    margin: 0 auto;
+    width:fit-content;
+    padding: 0 16px;
+
+}
+header nav ul li{
+    display: inline-block;
+    float:left;
+    list-style: none;
+    padding: 0 16px;
+}
+
+header nav ul li a {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    color: #111;
+}
+
+
+/*Index*/
+
+.index-banner{
+    width: 100px;
+    height: calc(100vh - 100px);
+    background-image: url('321donut.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display:table;
+}
+
+.vertical-center {
+    display:table-cell;
+    display-align: align;
+    vertical-align: toprea;
+
+}
+
+.index-banner h2 {
+    font-family: sans-serif;
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    font-weight: 900;
+    text-shadow: 2px 2px 8px #111;
+    display:table;
+}
+
+.index-banner h1 {
+    font-family: sans-serif;
+    font-size: 28px;
+    font-style: italic;
+    font-height: 40px;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    text-shadow: 2px 2px 8px #111;
+}
+
+.index-boxlink-1 div{
+    margin:16px 16px 0;
+    width: calc(100% - 20px);
+    height: 100px;
+    background-color:#f2f2f2;
+}
+.index-boxlink-1 div h1{
+    font-family: sans-serif;
+    font-size: 28px;
+    font-weight: 900px;
+    color: #111;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+/*{MY CODE*/
+* {text-decoration: none;
+}
+
+body{
+    background-color: #fff;
+}
+
+Header{
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+}
+
+header.header-brand{
+    font-family: sans-serif;
+    font-size: 24px
+    font-weight 900;
+    color:#111;
+    text-transform: uppercase;
+    display:block;
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding-top: 20px 0;
+}
+
+header nav ul{
+display: block;
+margin:0 auto;
+width:fit-content;
+}
+
+header nav ul li {
+  display:inline-block;
+  float: left;
+  list-style: none;
+  padding:0 16px;
+}
+
+header .header-cases{
+    display:none;
+}
+
+header nav ul li a {
+    font-family: fantasy;
+    font-size: 16px;
+    color: #111;
+}
+
+/*index*/
+
+.index-banner{
+    width: 100%;
+    height: 200vh;
+    background-image: url('321donut.jpg');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.index-banner h2 {
+  font-family: fantasy;
+  font-size: 60px;
+  font-style:italic;
+  line-height: 40px;
+  color: #fff;
+  text-align: center;
+  font-weight: 900;
+  text-shadow: 2px 2px 8px #111
+}
+
+.index-banner h1 {
+  font-family: fantasy;
+  font-size: 30px;
+  font-style:italic;
+  line-height: 40px;
+  color: #fff;
+  text-align: center;
+  font-weight: 200;
+  text-shadow: 2px 2px 8px #111
+}
+
+.index-links div{
+    width: calc(100%-32px);
+    marin: 16px 16px 0;
+    height:100px;
+    background-color: #f2f2f2;
+}
+
+.index-links div h3 {
+      font-family: sans-serif;
+      font-size: 28px;
+      font-weight: 200px;
+      line-height: 100px;
+      color: #111;
+      text-align: center;
+      font-weight: 200;
+}
+
+
+footer {
+    width: auto;
+    padding: 40px  40px;
+    margin-top: 20px
+    background-color: #111
+    overflow:hidden;
+}
+
+footer ul{
+    width: fit-content;
+    float:left;
+    padding:left 20px;
+}
+
+footer ul li{
+    display: block;
+    list-style: none;
+
+}
+
+footer ul li a{
+    font-family: monospace;
+    font-size: 14px;
+    color: #fff;
+    line-height: 40px
+
+}
+.footer-links-cases {
+    display: none;
+}
+
+.footer-sm {
+    width: 100px;
+    margin-bottom: 10px;
+    float: right;
+
+}
+
+.footer-sm img {
+    width: 100px
+    float:right;
+}
+
+
+
+
+
+
+
+/*
+#toprea {
+
+.image_part{
+hiehgt: 500px
+background-color: gray;
+background-image: url('"../img/donuts.jpg"')
+background-reapeat:no-reapeat
+background-position:center;
+background-size
+
+
+}
+
+.image_text{
+heigh
+width
+background
+moz-border-radius 50%
+border-radius 50%
+
+position: 50%
+
+.text_part{
+background-clor:#dd;
+width: 50%
+padding: 100px;
+font-family sans;
+}
+
+.ingage-part .dot-hover{
+
+webkit=box-shadow:0 5
+}
+
+one example where one donut is out of stock
+you can alose incorporate inventory program in there if you want..
